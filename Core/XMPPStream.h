@@ -5,7 +5,8 @@
 
 
 #import <KissXML/KissXML.h>
-@import CocoaAsyncSocket;
+#import <CocoaAsyncSocket/GCDAsyncSocket.h>
+#import <CocoaAsyncSocket/GCDAsyncUdpSocket.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

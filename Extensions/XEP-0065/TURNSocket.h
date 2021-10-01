@@ -3,7 +3,8 @@
 @class XMPPIQ;
 @class XMPPJID;
 @class XMPPStream;
-@import CocoaAsyncSocket;
+#import <CocoaAsyncSocket/GCDAsyncSocket.h>
+#import <CocoaAsyncSocket/GCDAsyncUdpSocket.h>
 @protocol TURNSocketDelegate;
 
 /**
